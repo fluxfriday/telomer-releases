@@ -1,7 +1,7 @@
 {
-  "version": "2.1.3",
-  "notes": "**Version und Update-Suche in den Einstellungen.** Ganz oben im Reiter „Einstellungen\" steht jetzt die installierte Fassung, darunter ein Knopf **„Nach Updates suchen\"**. Er antwortet sofort — die Sechs-Stunden-Sperre gilt nur für das automatische Nachsehen im Hintergrund. Einspielen kann weiterhin nur Telomer.app; eine Safari-Erweiterung darf ihr eigenes Paket nicht austauschen.\n\n**Menüleiste auf Deutsch.** „Über Telomer\", „Telomer ausblenden\", „Telomer beenden\", „Hilfe\" — vorher stand daneben englisch, was der Konverter erzeugt hatte. Und die doppelte Trennlinie unter „Nach Updates suchen …\" ist weg.",
-  "pubDate": "2026-08-03T16:43:29Z",
-  "url": "https://github.com/fluxfriday/telomer-releases/releases/download/v2.1.3/Telomer-2.1.3.zip",
-  "sha256": "ee031c789ea6e1b09ac078b5749609c16907359cf03013097a8a9e88a667c944"
+  "version": "2.1.4",
+  "notes": "**Akademische Grade werden erkannt und vereinheitlicht.** „b.sc.\", „BSC\" und „Bachelor of Science\" werden alle zu **BSc**, „dipl. ing.\" zu **Dipl.-Ing.**, „mag\" zu **Mag.** Vorangestellte und nachgestellte Grade haben eigene Listen — „med\" heißt vorne „Dr. med.\" und hinten „MEd\". Was in keiner Liste steht, bleibt unverändert stehen und wird zur Prüfung gemeldet: „Titel prüfen: „Elektriker\" ist kein bekannter akademischer Grad.\"\n\n**Der Score ist eine ganze Zahl.** 1 bis 30, Kommawerte werden gerundet. Und ein leeres Zahlenfeld wird nicht mehr stillschweigend zu einer 1 — es bleibt leer, damit die fehlende Angabe auffällt statt einen falschen Wert zu erfinden.\n\n**Drei Stellen im Formular geradegerückt.** Das ID-Feld hatte eine zu große Schrift für seine Breite, sodass der Platzhalter abgeschnitten war; die Pfeilchen des Zahlenfelds sind weg, sie fraßen ein Fünftel der Breite. Und in der Zeile „Einsatzland\" klebte die Beschriftung am Auswahlfeld.",
+  "pubDate": "2026-08-03T16:52:59Z",
+  "url": "https://github.com/fluxfriday/telomer-releases/releases/download/v2.1.4/Telomer-2.1.4.zip",
+  "sha256": "0754e3ca269b2e36dcf5aff6da3188621f08d9687aa00048b8fba87d885bc262"
 }
