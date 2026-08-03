@@ -1,7 +1,7 @@
 {
-  "version": "2.1.0",
-  "notes": "Fassung 2.1.0.",
-  "pubDate": "2026-08-03T15:55:58Z",
-  "url": "https://github.com/fluxfriday/telomer-releases/releases/download/v2.1.0/Telomer-2.1.0.zip",
-  "sha256": "c8583706aa5d0941f0380c8244739d808879870742178e249199c641877c178d"
+  "version": "2.1.1",
+  "notes": "**Starlink braucht ein Zertifikat.** Ist der Skill „Starlink\" vergeben, ist die Starlink-Zertifikat-ID Pflicht. Das Feld erscheint erst mit dem Skill. Wer das Zertifikat noch nicht hat, findet unter den offenen Punkten den Ein-Klick-Ausweg „Später nachtragen — stattdessen Remote\".\n\n**„No value.\" ist kein Wert mehr.** Fountain schreibt das in leere Attribute; bislang landete es als Kontoinhaber in Helix und löste eine Kette von Fehlmeldungen aus (BIC „NOVALUE.\", PLZ mit 0 Stellen …). Dasselbe gilt für „N/A\", „-\", „none\" und ähnliche Platzhalter.\n\n**Ruhe im leeren Formular.** Solange nichts gelesen wurde, steht bei den offenen Punkten nur noch der Hinweis, die Fountain-Seite zu lesen — statt einer Liste all dessen, was in einem leeren Formular fehlt.\n\n**Neues Symbol.**",
+  "pubDate": "2026-08-03T16:07:29Z",
+  "url": "https://github.com/fluxfriday/telomer-releases/releases/download/v2.1.1/Telomer-2.1.1.zip",
+  "sha256": "2909cdff29262d04413329a3e358779a5d68fde6a89fca8fab3b8b1c4d0d6800"
 }
