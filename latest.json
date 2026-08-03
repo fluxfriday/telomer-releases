@@ -1,7 +1,7 @@
 {
-  "version": "2.1.2",
-  "notes": "**Installation über ein Abbild (DMG).** Neu gibt es `Telomer-2.1.2.dmg` mit dem gewohnten Fenster: App links, „Programme\" rechts, hinüberziehen. Das ZIP bleibt für den Updater.\n\n**Telomer bietet an, sich selbst nach „Programme\" zu bewegen.** Wer die App aus dem Download-Ordner startet, läuft in die App-Translocation von macOS — eine schreibgeschützte Zufallskopie, aus der heraus sich nichts aktualisieren lässt. Das fängt Telomer jetzt beim ersten Start ab und erklärt es auch verständlich, statt einen kryptischen Pfad zu zeigen.\n\n**Starlink braucht ein Zertifikat.** Ist der Skill „Starlink\" vergeben, ist die Starlink-Zertifikat-ID Pflicht. Das Feld erscheint erst mit dem Skill. Wer das Zertifikat noch nicht hat, findet unter den offenen Punkten den Ein-Klick-Ausweg „Später nachtragen — stattdessen Remote\".\n\n**„No value.\" ist kein Wert mehr.** Fountain schreibt das in leere Attribute; bislang landete es als Kontoinhaber in Helix und löste eine Kette von Fehlmeldungen aus (BIC „NOVALUE.\", PLZ mit 0 Stellen …). Dasselbe gilt für „N/A\", „-\", „none\" und ähnliche Platzhalter.\n\n**Ruhe im leeren Formular.** Solange nichts gelesen wurde, steht bei den offenen Punkten nur noch der Hinweis, die Fountain-Seite zu lesen — statt einer Liste all dessen, was in einem leeren Formular fehlt.\n\n**Neues Symbol** — die DNA-Doppelhelix, in allen Größen und auch als Programmsymbol.",
-  "pubDate": "2026-08-03T16:26:32Z",
-  "url": "https://github.com/fluxfriday/telomer-releases/releases/download/v2.1.2/Telomer-2.1.2.zip",
-  "sha256": "fa741bd608a18d6b39968ca1caadd8388f8eef11a89f9c4c6db796fabd1d4d20"
+  "version": "2.1.3",
+  "notes": "**Version und Update-Suche in den Einstellungen.** Ganz oben im Reiter „Einstellungen\" steht jetzt die installierte Fassung, darunter ein Knopf **„Nach Updates suchen\"**. Er antwortet sofort — die Sechs-Stunden-Sperre gilt nur für das automatische Nachsehen im Hintergrund. Einspielen kann weiterhin nur Telomer.app; eine Safari-Erweiterung darf ihr eigenes Paket nicht austauschen.\n\n**Menüleiste auf Deutsch.** „Über Telomer\", „Telomer ausblenden\", „Telomer beenden\", „Hilfe\" — vorher stand daneben englisch, was der Konverter erzeugt hatte. Und die doppelte Trennlinie unter „Nach Updates suchen …\" ist weg.",
+  "pubDate": "2026-08-03T16:43:29Z",
+  "url": "https://github.com/fluxfriday/telomer-releases/releases/download/v2.1.3/Telomer-2.1.3.zip",
+  "sha256": "ee031c789ea6e1b09ac078b5749609c16907359cf03013097a8a9e88a667c944"
 }
