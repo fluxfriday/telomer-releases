@@ -1,7 +1,7 @@
 {
-  "version": "2.3.0",
-  "notes": "**Der Teststand heißt jetzt stage.** `helix-dev` gibt es nicht mehr — die Adresse löst nicht einmal mehr auf. Deshalb schlug die Anmeldung auf dem Teststand zuletzt fehl, ohne dass erkennbar war, woran es liegt. Telomer spricht nun `helix-stage` und `identity-stage` an. Wer den Teststand eingestellt hatte, muss nichts tun: die gespeicherte Einstellung wird beim ersten Start still umgestellt, und auch der eigene Verlauf zählt weiterhin als derselbe Server.\n\n**Nach dem Anlegen passiert jetzt das, was bisher nur das Helix-Formular gemacht hat.** Bisher endete Telomer beim Datensatz — Passwort, Unity-Kontakt und der Willkommens-Workflow blieben aus, weil sie nicht am Anlegen hängen, sondern drei eigene Aufrufe sind. Die macht Telomer nun in dieser Reihenfolge: AppUser mit Passwort, dann den Unity-Kontakt samt App-Kanal, dann die Ereignismeldung, die den Workflow startet. Zuerst das Passwort, damit die Zugangsdaten stehen, bevor die Willkommensnachricht rausgeht.\n\n**Das App-Passwort steht nach dem Anlegen im Popup, mit einer Schaltfläche zum Kopieren.** Es ist dasselbe, das die Schaltfläche „Passwort Generieren\" in Helix erzeugt — aus ID und Namen, also jederzeit wieder herleitbar.\n\n**Was dabei hakt, wirft das Anlegen nicht um.** Das Helferlein steht zu dem Zeitpunkt schon in Helix. Bleibt einer der drei Schritte hängen, steht er als Hinweis im Popup und im Verlauf — mit dem, was in Helix von Hand nachzuziehen ist. Der Workflow wird auch dann gemeldet, wenn der Kontakt klemmt: nachholen lässt sich ein Ereignis später nicht.\n\n**Zu wissen:** Unity verlangt für Kontakt und Workflow einen Zugang mit Staff-Rolle. Fehlt sie, kommen genau diese beiden Schritte als Hinweis zurück, während Datensatz und Passwort angelegt sind.",
-  "pubDate": "2026-08-26T11:31:24Z",
-  "url": "https://github.com/fluxfriday/telomer-releases/releases/download/v2.3.0/Telomer-2.3.0.zip",
-  "sha256": "df4264531b6bf5b8ebe22e8d8141465f3069c57fb06c275d4c4a64fa93408de0"
+  "version": "2.3.1",
+  "notes": "Erste ID im Jahr (z. B. 326001) und siebenstellige IDs ab 1000 werden jetzt angenommen.",
+  "pubDate": "2026-09-21T13:38:35Z",
+  "url": "https://github.com/fluxfriday/telomer-releases/releases/download/v2.3.1/Telomer-2.3.1.zip",
+  "sha256": "e4af752605ae99ffcf12339f72b7513cc32d16635c9e6ea09806c18d84d91890"
 }
