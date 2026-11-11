@@ -1,7 +1,7 @@
 {
-  "version": "2.3.1",
-  "notes": "Erste ID im Jahr (z. B. 326001) und siebenstellige IDs ab 1000 werden jetzt angenommen.",
-  "pubDate": "2026-09-21T13:38:35Z",
-  "url": "https://github.com/fluxfriday/telomer-releases/releases/download/v2.3.1/Telomer-2.3.1.zip",
-  "sha256": "e4af752605ae99ffcf12339f72b7513cc32d16635c9e6ea09806c18d84d91890"
+  "version": "2.3.2",
+  "notes": "E-Mail und Handynummer werden aus Fountain wieder automatisch übernommen (Fountain hatte die Seite umgebaut).",
+  "pubDate": "2026-11-11T13:38:11Z",
+  "url": "https://github.com/fluxfriday/telomer-releases/releases/download/v2.3.2/Telomer-2.3.2.zip",
+  "sha256": "d22fe695ff216d42cecdac28bda0c62d9dd877e127c470877d8f70d50936ae13"
 }
